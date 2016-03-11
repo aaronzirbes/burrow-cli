@@ -30,4 +30,7 @@ qa:      http://burrow-qa.zirbes.org:8080
 dev:     http://burrow-dev.zirbes.org:8080
 ```
 
+## Screenshot
+
+![Burrow CLI Screenshot](/burrow-cli.png?raw=true "Burrow CLI Screenshot")
 
