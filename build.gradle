@@ -1,0 +1,36 @@
+buildscript {
+    repositories { jcenter() }
+    dependencies {
+        classpath 'com.github.jengelman.gradle.plugins:shadow:1.2.3'
+    }
+}
+
+plugins {
+  id 'groovy'
+  id 'application'
+  id 'com.github.johnrengelman.shadow' version '1.2.3'
+}
+
+mainClassName = 'org.zirbes.kafka.burrow.cli.BurrowCli'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile 'joda-time:joda-time:2.9.2'
+    compile 'org.codehaus.groovy:groovy-all:2.4.5'
+    compile 'org.slf4j:slf4j-simple:1.7.18'
+
+    testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
+}
+
+compileGroovy {
+    configure(groovyOptions) {
+        configurationScript = file("$rootDir/gradle/compiler-config.groovy")
+    }
+}
+
+build.dependsOn 'shadowJar'

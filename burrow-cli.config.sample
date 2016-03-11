@@ -1,0 +1,10 @@
+# Burrow host aliases
+
+# default alias to use
+default: dev
+
+# alias definitions
+prod:    http://burrow.production.zirbes.org:8666
+staging: http://burrow-staging.zirbes.org:8555
+qa:      http://burrow-qa.zirbes.org:8080
+dev:     http://burrow-dev.zirbes.org:8080
