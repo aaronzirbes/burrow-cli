@@ -33,4 +33,23 @@ compileGroovy {
     }
 }
 
-build.dependsOn 'shadowJar'
+build.dependsOn shadowJar
+
+task install(dependsOn: shadowJar) << {
+
+    File script = file('burrow')
+    File installPath = new File(file(System.getenv('HOME')), '.burrow-cli/')
+    File binPath = new File(file(System.getenv('HOME')), 'bin/')
+    File fatJar = shadowJar.outputs.files[0]
+
+    copy {
+        from fatJar
+        into installPath
+    }
+
+    copy {
+        from script
+        into binPath
+    }
+}
+

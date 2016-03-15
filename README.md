@@ -1,18 +1,20 @@
 # Burrow CLI
 
+## Installation
+
+    ./gradlew install
+
+This installs the `burrow` script to your ~/bin folder and installs the JAR to ~/.burrow-cli/
+
 ## Usage
 
-Run via gradle using defaults:
+specify a specific host
 
-    gradle run
-
-Run via the JAR file by specifying a URL
-
-    java -jar burrow-cli-all.jar http://localhost:8080
+    burrow http://localhost:8080
 
 or specify an alias from your config file
 
-    java -jar burrow-cli-all.jar qa
+    burrow qa
 
 
 ## Sample `~/.burrow-cli.config` configuration

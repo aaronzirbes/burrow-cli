@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [ ! -f ~/.burrow-cli.config ]; then
+    echo "Creating default config file ~/.burrow-cli.config"
+    echo "# Burrow host aliases
+
+# default alias to use
+default: local
+
+# alias definitions
+local:    http://localhost:8000" > ~/.burrow-cli.config
+fi
+
+java -jar ~/.burrow-cli/burrow-cli-all.jar $1
+
