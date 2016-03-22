@@ -38,7 +38,9 @@ class BurrowHerder {
             log.info "Loading cluster ${cluster.name}..."
             api.getCluster(cluster.name).consumers.each { String consumerName ->
 
+                log.debug "Checking lag for ${consumerName}..."
                 Consumer consumer = api.consumerLag(cluster.name, consumerName).status
+                log.debug "Checking topics for ${consumerName}..."
                 consumer.topics = api.getTopics(cluster.name, consumerName).topics.collect { new Topic(it) }
 
                 consumer.partitions.groupBy { it.topic }.each { String topic, List<Partition> partitions ->

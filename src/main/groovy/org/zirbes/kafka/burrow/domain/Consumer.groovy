@@ -5,7 +5,7 @@ class Consumer {
     String cluster
     boolean complete
     String group
-    String maxlag
+    Partition maxlag
     List<Partition> partitions = []
     String status
     List<Topic> topics

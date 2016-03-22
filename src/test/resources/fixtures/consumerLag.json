@@ -1,0 +1,2007 @@
+{
+    "error": false, 
+    "message": "consumer group status returned", 
+    "status": {
+        "cluster": "tranz", 
+        "complete": true, 
+        "group": "euro", 
+        "maxlag": {
+            "end": {
+                "lag": 1861, 
+                "offset": 2279712, 
+                "timestamp": 1458664438616
+            }, 
+            "partition": 3, 
+            "start": {
+                "lag": 1846, 
+                "offset": 2279509, 
+                "timestamp": 1458663883561
+            }, 
+            "status": "OK", 
+            "topic": "ATONEMENT_FLUCTUATION"
+        }, 
+        "partitions": [
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 64802, 
+                    "timestamp": 1458664459712
+                }, 
+                "partition": 0, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 64800, 
+                    "timestamp": 1458663894409
+                }, 
+                "status": "OK", 
+                "topic": "GRAVE_CROOKED"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 35954, 
+                    "timestamp": 1458664459712
+                }, 
+                "partition": 1, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 35950, 
+                    "timestamp": 1458663894409
+                }, 
+                "status": "OK", 
+                "topic": "GRAVE_CROOKED"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 35215, 
+                    "timestamp": 1458664440193
+                }, 
+                "partition": 2, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 35214, 
+                    "timestamp": 1458663880517
+                }, 
+                "status": "OK", 
+                "topic": "GRAVE_CROOKED"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 34253, 
+                    "timestamp": 1458664440193
+                }, 
+                "partition": 3, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 34250, 
+                    "timestamp": 1458663880517
+                }, 
+                "status": "OK", 
+                "topic": "GRAVE_CROOKED"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 35347, 
+                    "timestamp": 1458664475568
+                }, 
+                "partition": 4, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 35343, 
+                    "timestamp": 1458663897769
+                }, 
+                "status": "OK", 
+                "topic": "GRAVE_CROOKED"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 31888, 
+                    "timestamp": 1458664475568
+                }, 
+                "partition": 5, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 31886, 
+                    "timestamp": 1458663897769
+                }, 
+                "status": "OK", 
+                "topic": "GRAVE_CROOKED"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 37132, 
+                    "timestamp": 1458664445291
+                }, 
+                "partition": 6, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 37130, 
+                    "timestamp": 1458663888278
+                }, 
+                "status": "OK", 
+                "topic": "GRAVE_CROOKED"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 35326, 
+                    "timestamp": 1458664445291
+                }, 
+                "partition": 7, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 35324, 
+                    "timestamp": 1458663888278
+                }, 
+                "status": "OK", 
+                "topic": "GRAVE_CROOKED"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 1952590, 
+                    "timestamp": 1458664452952
+                }, 
+                "partition": 0, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 1952398, 
+                    "timestamp": 1458663884399
+                }, 
+                "status": "OK", 
+                "topic": "SONG_EVENTUAL"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 1940723, 
+                    "timestamp": 1458664462135
+                }, 
+                "partition": 1, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 1940538, 
+                    "timestamp": 1458663902472
+                }, 
+                "status": "OK", 
+                "topic": "SONG_EVENTUAL"
+            }, 
+            {
+                "end": {
+                    "lag": 1, 
+                    "offset": 1962068, 
+                    "timestamp": 1458664458562
+                }, 
+                "partition": 2, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 1961876, 
+                    "timestamp": 1458663891816
+                }, 
+                "status": "OK", 
+                "topic": "SONG_EVENTUAL"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 1980163, 
+                    "timestamp": 1458664455668
+                }, 
+                "partition": 3, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 1979971, 
+                    "timestamp": 1458663889960
+                }, 
+                "status": "OK", 
+                "topic": "SONG_EVENTUAL"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 108811, 
+                    "timestamp": 1458664482222
+                }, 
+                "partition": 0, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 108810, 
+                    "timestamp": 1458663931638
+                }, 
+                "status": "OK", 
+                "topic": "LADYBUG_FOUNTAIN"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 109958, 
+                    "timestamp": 1458664441910
+                }, 
+                "partition": 1, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 109957, 
+                    "timestamp": 1458663896024
+                }, 
+                "status": "OK", 
+                "topic": "LADYBUG_FOUNTAIN"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 107834, 
+                    "timestamp": 1458664480664
+                }, 
+                "partition": 2, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 107831, 
+                    "timestamp": 1458663931482
+                }, 
+                "status": "OK", 
+                "topic": "LADYBUG_FOUNTAIN"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 112266, 
+                    "timestamp": 1458664441672
+                }, 
+                "partition": 3, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 112264, 
+                    "timestamp": 1458663886926
+                }, 
+                "status": "OK", 
+                "topic": "LADYBUG_FOUNTAIN"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 210109, 
+                    "timestamp": 1458664453103
+                }, 
+                "partition": 0, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 210095, 
+                    "timestamp": 1458663882671
+                }, 
+                "status": "OK", 
+                "topic": "ELECTRON_ANY"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 190072, 
+                    "timestamp": 1458664473497
+                }, 
+                "partition": 1, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 190051, 
+                    "timestamp": 1458663898633
+                }, 
+                "status": "OK", 
+                "topic": "ELECTRON_ANY"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 173131, 
+                    "timestamp": 1458664459465
+                }, 
+                "partition": 2, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 173126, 
+                    "timestamp": 1458663903443
+                }, 
+                "status": "OK", 
+                "topic": "ELECTRON_ANY"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 152930, 
+                    "timestamp": 1458664448213
+                }, 
+                "partition": 3, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 152913, 
+                    "timestamp": 1458663860773
+                }, 
+                "status": "OK", 
+                "topic": "ELECTRON_ANY"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 46648, 
+                    "timestamp": 1458664463659
+                }, 
+                "partition": 0, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 46648, 
+                    "timestamp": 1458663923236
+                }, 
+                "status": "OK", 
+                "topic": "CENTER_CHIEFTAIN"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 38179, 
+                    "timestamp": 1458664467452
+                }, 
+                "partition": 1, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 38179, 
+                    "timestamp": 1458663926942
+                }, 
+                "status": "OK", 
+                "topic": "CENTER_CHIEFTAIN"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 45434, 
+                    "timestamp": 1458664465937
+                }, 
+                "partition": 2, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 45434, 
+                    "timestamp": 1458663925415
+                }, 
+                "status": "OK", 
+                "topic": "CENTER_CHIEFTAIN"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 40703, 
+                    "timestamp": 1458664473718
+                }, 
+                "partition": 3, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 40703, 
+                    "timestamp": 1458663932386
+                }, 
+                "status": "OK", 
+                "topic": "CENTER_CHIEFTAIN"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 13252, 
+                    "timestamp": 1458664466303
+                }, 
+                "partition": 0, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 13252, 
+                    "timestamp": 1458663925711
+                }, 
+                "status": "OK", 
+                "topic": "VOLCANIC_AGITATOR"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 8441, 
+                    "timestamp": 1458664466752
+                }, 
+                "partition": 1, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 8441, 
+                    "timestamp": 1458663926233
+                }, 
+                "status": "OK", 
+                "topic": "VOLCANIC_AGITATOR"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 12998, 
+                    "timestamp": 1458664469280
+                }, 
+                "partition": 2, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 12998, 
+                    "timestamp": 1458663928821
+                }, 
+                "status": "OK", 
+                "topic": "VOLCANIC_AGITATOR"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 7481, 
+                    "timestamp": 1458664469454
+                }, 
+                "partition": 3, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 7481, 
+                    "timestamp": 1458663928930
+                }, 
+                "status": "OK", 
+                "topic": "VOLCANIC_AGITATOR"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 2364, 
+                    "timestamp": 1458664467552
+                }, 
+                "partition": 0, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 2364, 
+                    "timestamp": 1458663927036
+                }, 
+                "status": "OK", 
+                "topic": "EXTORTION_HARD"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 3376, 
+                    "timestamp": 1458664467552
+                }, 
+                "partition": 1, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 3376, 
+                    "timestamp": 1458663927036
+                }, 
+                "status": "OK", 
+                "topic": "EXTORTION_HARD"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 2026, 
+                    "timestamp": 1458664471744
+                }, 
+                "partition": 2, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 2026, 
+                    "timestamp": 1458663931177
+                }, 
+                "status": "OK", 
+                "topic": "EXTORTION_HARD"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 2187, 
+                    "timestamp": 1458664471744
+                }, 
+                "partition": 3, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 2187, 
+                    "timestamp": 1458663931177
+                }, 
+                "status": "OK", 
+                "topic": "EXTORTION_HARD"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 5058, 
+                    "timestamp": 1458664465562
+                }, 
+                "partition": 4, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 5058, 
+                    "timestamp": 1458663925007
+                }, 
+                "status": "OK", 
+                "topic": "EXTORTION_HARD"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 11337, 
+                    "timestamp": 1458664465562
+                }, 
+                "partition": 5, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 11337, 
+                    "timestamp": 1458663925007
+                }, 
+                "status": "OK", 
+                "topic": "EXTORTION_HARD"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 9290, 
+                    "timestamp": 1458664467400
+                }, 
+                "partition": 6, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 9290, 
+                    "timestamp": 1458663926898
+                }, 
+                "status": "OK", 
+                "topic": "EXTORTION_HARD"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 6732, 
+                    "timestamp": 1458664467400
+                }, 
+                "partition": 7, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 6732, 
+                    "timestamp": 1458663926898
+                }, 
+                "status": "OK", 
+                "topic": "EXTORTION_HARD"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 170698, 
+                    "timestamp": 1458664475465
+                }, 
+                "partition": 0, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 170685, 
+                    "timestamp": 1458663908804
+                }, 
+                "status": "OK", 
+                "topic": "ADJUSTABLE_HOMESICK"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 173113, 
+                    "timestamp": 1458664456147
+                }, 
+                "partition": 1, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 173097, 
+                    "timestamp": 1458663883270
+                }, 
+                "status": "OK", 
+                "topic": "ADJUSTABLE_HOMESICK"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 168413, 
+                    "timestamp": 1458664471082
+                }, 
+                "partition": 2, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 168407, 
+                    "timestamp": 1458663917473
+                }, 
+                "status": "OK", 
+                "topic": "ADJUSTABLE_HOMESICK"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 147939, 
+                    "timestamp": 1458664474527
+                }, 
+                "partition": 3, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 147926, 
+                    "timestamp": 1458663905160
+                }, 
+                "status": "OK", 
+                "topic": "ADJUSTABLE_HOMESICK"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 93715, 
+                    "timestamp": 1458664463840
+                }, 
+                "partition": 0, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 93715, 
+                    "timestamp": 1458663923368
+                }, 
+                "status": "OK", 
+                "topic": "AVIATOR_PIN"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 82690, 
+                    "timestamp": 1458664469761
+                }, 
+                "partition": 1, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 82690, 
+                    "timestamp": 1458663929114
+                }, 
+                "status": "OK", 
+                "topic": "AVIATOR_PIN"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 90359, 
+                    "timestamp": 1458664467676
+                }, 
+                "partition": 2, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 90359, 
+                    "timestamp": 1458663927103
+                }, 
+                "status": "OK", 
+                "topic": "AVIATOR_PIN"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 90336, 
+                    "timestamp": 1458664464900
+                }, 
+                "partition": 3, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 90336, 
+                    "timestamp": 1458663924160
+                }, 
+                "status": "OK", 
+                "topic": "AVIATOR_PIN"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 17764, 
+                    "timestamp": 1458664466219
+                }, 
+                "partition": 0, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 17764, 
+                    "timestamp": 1458663925732
+                }, 
+                "status": "OK", 
+                "topic": "CHANT_SCANNER"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 29605, 
+                    "timestamp": 1458664467720
+                }, 
+                "partition": 1, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 29605, 
+                    "timestamp": 1458663927017
+                }, 
+                "status": "OK", 
+                "topic": "CHANT_SCANNER"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 15555, 
+                    "timestamp": 1458664466577
+                }, 
+                "partition": 2, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 15555, 
+                    "timestamp": 1458663926087
+                }, 
+                "status": "OK", 
+                "topic": "CHANT_SCANNER"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 7422, 
+                    "timestamp": 1458664469722
+                }, 
+                "partition": 3, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 7422, 
+                    "timestamp": 1458663929076
+                }, 
+                "status": "OK", 
+                "topic": "CHANT_SCANNER"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 19136, 
+                    "timestamp": 1458664464361
+                }, 
+                "partition": 0, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 19136, 
+                    "timestamp": 1458663923900
+                }, 
+                "status": "OK", 
+                "topic": "PROFOUND_IRON"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 19025, 
+                    "timestamp": 1458664464361
+                }, 
+                "partition": 1, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 19025, 
+                    "timestamp": 1458663923900
+                }, 
+                "status": "OK", 
+                "topic": "PROFOUND_IRON"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 19395, 
+                    "timestamp": 1458664484083
+                }, 
+                "partition": 2, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 19395, 
+                    "timestamp": 1458663943559
+                }, 
+                "status": "OK", 
+                "topic": "PROFOUND_IRON"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 19798, 
+                    "timestamp": 1458664484083
+                }, 
+                "partition": 3, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 19798, 
+                    "timestamp": 1458663943559
+                }, 
+                "status": "OK", 
+                "topic": "PROFOUND_IRON"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 19007, 
+                    "timestamp": 1458664490027
+                }, 
+                "partition": 4, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 19007, 
+                    "timestamp": 1458663949572
+                }, 
+                "status": "OK", 
+                "topic": "PROFOUND_IRON"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 19174, 
+                    "timestamp": 1458664490027
+                }, 
+                "partition": 5, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 19174, 
+                    "timestamp": 1458663949572
+                }, 
+                "status": "OK", 
+                "topic": "PROFOUND_IRON"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 19459, 
+                    "timestamp": 1458664471720
+                }, 
+                "partition": 6, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 19459, 
+                    "timestamp": 1458663931168
+                }, 
+                "status": "OK", 
+                "topic": "PROFOUND_IRON"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 19075, 
+                    "timestamp": 1458664471720
+                }, 
+                "partition": 7, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 19075, 
+                    "timestamp": 1458663931168
+                }, 
+                "status": "OK", 
+                "topic": "PROFOUND_IRON"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 8000, 
+                    "timestamp": 1458664490085
+                }, 
+                "partition": 0, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 7997, 
+                    "timestamp": 1458663943657
+                }, 
+                "status": "OK", 
+                "topic": "BLUNTNESS_CLAIRVOYANT"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 7369, 
+                    "timestamp": 1458664490085
+                }, 
+                "partition": 1, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 7369, 
+                    "timestamp": 1458663943657
+                }, 
+                "status": "OK", 
+                "topic": "BLUNTNESS_CLAIRVOYANT"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 7362, 
+                    "timestamp": 1458664481828
+                }, 
+                "partition": 2, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 7361, 
+                    "timestamp": 1458663939929
+                }, 
+                "status": "OK", 
+                "topic": "BLUNTNESS_CLAIRVOYANT"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 7549, 
+                    "timestamp": 1458664481828
+                }, 
+                "partition": 3, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 7549, 
+                    "timestamp": 1458663939929
+                }, 
+                "status": "OK", 
+                "topic": "BLUNTNESS_CLAIRVOYANT"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 7492, 
+                    "timestamp": 1458664491403
+                }, 
+                "partition": 4, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 7492, 
+                    "timestamp": 1458663943596
+                }, 
+                "status": "OK", 
+                "topic": "BLUNTNESS_CLAIRVOYANT"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 7985, 
+                    "timestamp": 1458664491403
+                }, 
+                "partition": 5, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 7984, 
+                    "timestamp": 1458663943596
+                }, 
+                "status": "OK", 
+                "topic": "BLUNTNESS_CLAIRVOYANT"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 7896, 
+                    "timestamp": 1458664444168
+                }, 
+                "partition": 6, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 7895, 
+                    "timestamp": 1458663893566
+                }, 
+                "status": "OK", 
+                "topic": "BLUNTNESS_CLAIRVOYANT"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 8294, 
+                    "timestamp": 1458664444168
+                }, 
+                "partition": 7, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 8288, 
+                    "timestamp": 1458663893566
+                }, 
+                "status": "OK", 
+                "topic": "BLUNTNESS_CLAIRVOYANT"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 26145, 
+                    "timestamp": 1458664484168
+                }, 
+                "partition": 0, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 26145, 
+                    "timestamp": 1458663943672
+                }, 
+                "status": "OK", 
+                "topic": "DELICATESSEN_ATTACKING"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 25772, 
+                    "timestamp": 1458664448213
+                }, 
+                "partition": 1, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 25770, 
+                    "timestamp": 1458663895339
+                }, 
+                "status": "OK", 
+                "topic": "DELICATESSEN_ATTACKING"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 25756, 
+                    "timestamp": 1458664478845
+                }, 
+                "partition": 2, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 25756, 
+                    "timestamp": 1458663938374
+                }, 
+                "status": "OK", 
+                "topic": "DELICATESSEN_ATTACKING"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 26574, 
+                    "timestamp": 1458664483642
+                }, 
+                "partition": 3, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 26574, 
+                    "timestamp": 1458663942802
+                }, 
+                "status": "OK", 
+                "topic": "DELICATESSEN_ATTACKING"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 30313, 
+                    "timestamp": 1458664473667
+                }, 
+                "partition": 0, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 30313, 
+                    "timestamp": 1458663932266
+                }, 
+                "status": "OK", 
+                "topic": "CENTER_CHIEFTAIN_DETAIL"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 24408, 
+                    "timestamp": 1458664471441
+                }, 
+                "partition": 1, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 24408, 
+                    "timestamp": 1458663930860
+                }, 
+                "status": "OK", 
+                "topic": "CENTER_CHIEFTAIN_DETAIL"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 28738, 
+                    "timestamp": 1458664471689
+                }, 
+                "partition": 2, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 28738, 
+                    "timestamp": 1458663931108
+                }, 
+                "status": "OK", 
+                "topic": "CENTER_CHIEFTAIN_DETAIL"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 25420, 
+                    "timestamp": 1458664463714
+                }, 
+                "partition": 3, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 25420, 
+                    "timestamp": 1458663922979
+                }, 
+                "status": "OK", 
+                "topic": "CENTER_CHIEFTAIN_DETAIL"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 111824, 
+                    "timestamp": 1458664474820
+                }, 
+                "partition": 0, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 111823, 
+                    "timestamp": 1458663931786
+                }, 
+                "status": "OK", 
+                "topic": "KANGAROO_GRUNTING"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 112927, 
+                    "timestamp": 1458664442516
+                }, 
+                "partition": 1, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 112925, 
+                    "timestamp": 1458663886382
+                }, 
+                "status": "OK", 
+                "topic": "KANGAROO_GRUNTING"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 111103, 
+                    "timestamp": 1458664481889
+                }, 
+                "partition": 2, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 111100, 
+                    "timestamp": 1458663932270
+                }, 
+                "status": "OK", 
+                "topic": "KANGAROO_GRUNTING"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 115524, 
+                    "timestamp": 1458664493742
+                }, 
+                "partition": 3, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 115522, 
+                    "timestamp": 1458663939634
+                }, 
+                "status": "OK", 
+                "topic": "KANGAROO_GRUNTING"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 19136, 
+                    "timestamp": 1458664470701
+                }, 
+                "partition": 0, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 19136, 
+                    "timestamp": 1458663930250
+                }, 
+                "status": "OK", 
+                "topic": "CHISEL_ACTUALITY"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 19027, 
+                    "timestamp": 1458664470701
+                }, 
+                "partition": 1, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 19027, 
+                    "timestamp": 1458663930250
+                }, 
+                "status": "OK", 
+                "topic": "CHISEL_ACTUALITY"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 19396, 
+                    "timestamp": 1458664476033
+                }, 
+                "partition": 2, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 19395, 
+                    "timestamp": 1458663934227
+                }, 
+                "status": "OK", 
+                "topic": "CHISEL_ACTUALITY"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 19798, 
+                    "timestamp": 1458664476033
+                }, 
+                "partition": 3, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 19798, 
+                    "timestamp": 1458663934227
+                }, 
+                "status": "OK", 
+                "topic": "CHISEL_ACTUALITY"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 19007, 
+                    "timestamp": 1458664479127
+                }, 
+                "partition": 4, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 19007, 
+                    "timestamp": 1458663928955
+                }, 
+                "status": "OK", 
+                "topic": "CHISEL_ACTUALITY"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 19174, 
+                    "timestamp": 1458664479127
+                }, 
+                "partition": 5, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 19173, 
+                    "timestamp": 1458663928955
+                }, 
+                "status": "OK", 
+                "topic": "CHISEL_ACTUALITY"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 19459, 
+                    "timestamp": 1458664469722
+                }, 
+                "partition": 6, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 19459, 
+                    "timestamp": 1458663929173
+                }, 
+                "status": "OK", 
+                "topic": "CHISEL_ACTUALITY"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 19076, 
+                    "timestamp": 1458664469722
+                }, 
+                "partition": 7, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 19076, 
+                    "timestamp": 1458663929173
+                }, 
+                "status": "OK", 
+                "topic": "CHISEL_ACTUALITY"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 46041, 
+                    "timestamp": 1458664498664
+                }, 
+                "partition": 0, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 46034, 
+                    "timestamp": 1458663926696
+                }, 
+                "status": "OK", 
+                "topic": "BAREKNUCKLE_SOON"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 45942, 
+                    "timestamp": 1458664498664
+                }, 
+                "partition": 1, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 45940, 
+                    "timestamp": 1458663926696
+                }, 
+                "status": "OK", 
+                "topic": "BAREKNUCKLE_SOON"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 47423, 
+                    "timestamp": 1458664486433
+                }, 
+                "partition": 2, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 47423, 
+                    "timestamp": 1458663937586
+                }, 
+                "status": "OK", 
+                "topic": "BAREKNUCKLE_SOON"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 45468, 
+                    "timestamp": 1458664486433
+                }, 
+                "partition": 3, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 45467, 
+                    "timestamp": 1458663937586
+                }, 
+                "status": "OK", 
+                "topic": "BAREKNUCKLE_SOON"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 46356, 
+                    "timestamp": 1458664489373
+                }, 
+                "partition": 4, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 46353, 
+                    "timestamp": 1458663934616
+                }, 
+                "status": "OK", 
+                "topic": "BAREKNUCKLE_SOON"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 45880, 
+                    "timestamp": 1458664489373
+                }, 
+                "partition": 5, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 45878, 
+                    "timestamp": 1458663934616
+                }, 
+                "status": "OK", 
+                "topic": "BAREKNUCKLE_SOON"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 45723, 
+                    "timestamp": 1458664438510
+                }, 
+                "partition": 6, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 45720, 
+                    "timestamp": 1458663875306
+                }, 
+                "status": "OK", 
+                "topic": "BAREKNUCKLE_SOON"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 45128, 
+                    "timestamp": 1458664438510
+                }, 
+                "partition": 7, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 45122, 
+                    "timestamp": 1458663875306
+                }, 
+                "status": "OK", 
+                "topic": "BAREKNUCKLE_SOON"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 2131715, 
+                    "timestamp": 1458664455609
+                }, 
+                "partition": 0, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 2131490, 
+                    "timestamp": 1458663892430
+                }, 
+                "status": "OK", 
+                "topic": "BALANCE_CINDER"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 2134836, 
+                    "timestamp": 1458664445345
+                }, 
+                "partition": 1, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 2134601, 
+                    "timestamp": 1458663883489
+                }, 
+                "status": "OK", 
+                "topic": "BALANCE_CINDER"
+            }, 
+            {
+                "end": {
+                    "lag": 38, 
+                    "offset": 2184522, 
+                    "timestamp": 1458664490549
+                }, 
+                "partition": 2, 
+                "start": {
+                    "lag": 125, 
+                    "offset": 2184221, 
+                    "timestamp": 1458663940058
+                }, 
+                "status": "OK", 
+                "topic": "BALANCE_CINDER"
+            }, 
+            {
+                "end": {
+                    "lag": 9, 
+                    "offset": 2233694, 
+                    "timestamp": 1458664492655
+                }, 
+                "partition": 3, 
+                "start": {
+                    "lag": 110, 
+                    "offset": 2233382, 
+                    "timestamp": 1458663943585
+                }, 
+                "status": "OK", 
+                "topic": "BALANCE_CINDER"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 18261, 
+                    "timestamp": 1458664495857
+                }, 
+                "partition": 0, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 18261, 
+                    "timestamp": 1458663937414
+                }, 
+                "status": "OK", 
+                "topic": "CONCAVE_LUSTRE"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 10389, 
+                    "timestamp": 1458664495857
+                }, 
+                "partition": 1, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 10385, 
+                    "timestamp": 1458663937414
+                }, 
+                "status": "OK", 
+                "topic": "CONCAVE_LUSTRE"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 11158, 
+                    "timestamp": 1458664485392
+                }, 
+                "partition": 2, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 11158, 
+                    "timestamp": 1458663944785
+                }, 
+                "status": "OK", 
+                "topic": "CONCAVE_LUSTRE"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 10898, 
+                    "timestamp": 1458664485392
+                }, 
+                "partition": 3, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 10898, 
+                    "timestamp": 1458663944785
+                }, 
+                "status": "OK", 
+                "topic": "CONCAVE_LUSTRE"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 9815, 
+                    "timestamp": 1458664476960
+                }, 
+                "partition": 4, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 9815, 
+                    "timestamp": 1458663936423
+                }, 
+                "status": "OK", 
+                "topic": "CONCAVE_LUSTRE"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 9879, 
+                    "timestamp": 1458664476960
+                }, 
+                "partition": 5, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 9879, 
+                    "timestamp": 1458663936423
+                }, 
+                "status": "OK", 
+                "topic": "CONCAVE_LUSTRE"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 10329, 
+                    "timestamp": 1458664479623
+                }, 
+                "partition": 6, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 10327, 
+                    "timestamp": 1458663929619
+                }, 
+                "status": "OK", 
+                "topic": "CONCAVE_LUSTRE"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 10528, 
+                    "timestamp": 1458664479623
+                }, 
+                "partition": 7, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 10526, 
+                    "timestamp": 1458663929619
+                }, 
+                "status": "OK", 
+                "topic": "CONCAVE_LUSTRE"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 16988, 
+                    "timestamp": 1458664470120
+                }, 
+                "partition": 0, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 16987, 
+                    "timestamp": 1458663924145
+                }, 
+                "status": "OK", 
+                "topic": "DOLPHINS_PRONG"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 16279, 
+                    "timestamp": 1458664470120
+                }, 
+                "partition": 1, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 16279, 
+                    "timestamp": 1458663924145
+                }, 
+                "status": "OK", 
+                "topic": "DOLPHINS_PRONG"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 16403, 
+                    "timestamp": 1458664467252
+                }, 
+                "partition": 2, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 16403, 
+                    "timestamp": 1458663926644
+                }, 
+                "status": "OK", 
+                "topic": "DOLPHINS_PRONG"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 17047, 
+                    "timestamp": 1458664467252
+                }, 
+                "partition": 3, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 17047, 
+                    "timestamp": 1458663926644
+                }, 
+                "status": "OK", 
+                "topic": "DOLPHINS_PRONG"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 16416, 
+                    "timestamp": 1458664464839
+                }, 
+                "partition": 4, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 16416, 
+                    "timestamp": 1458663924313
+                }, 
+                "status": "OK", 
+                "topic": "DOLPHINS_PRONG"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 17280, 
+                    "timestamp": 1458664464839
+                }, 
+                "partition": 5, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 17280, 
+                    "timestamp": 1458663924313
+                }, 
+                "status": "OK", 
+                "topic": "DOLPHINS_PRONG"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 17008, 
+                    "timestamp": 1458664447356
+                }, 
+                "partition": 6, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 17007, 
+                    "timestamp": 1458663891746
+                }, 
+                "status": "OK", 
+                "topic": "DOLPHINS_PRONG"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 16983, 
+                    "timestamp": 1458664447356
+                }, 
+                "partition": 7, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 16982, 
+                    "timestamp": 1458663891746
+                }, 
+                "status": "OK", 
+                "topic": "DOLPHINS_PRONG"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 57, 
+                    "timestamp": 1458664467246
+                }, 
+                "partition": 0, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 57, 
+                    "timestamp": 1458663926795
+                }, 
+                "status": "OK", 
+                "topic": "BET_GROAN"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 24, 
+                    "timestamp": 1458664467246
+                }, 
+                "partition": 1, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 24, 
+                    "timestamp": 1458663926795
+                }, 
+                "status": "OK", 
+                "topic": "BET_GROAN"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 47, 
+                    "timestamp": 1458664467214
+                }, 
+                "partition": 2, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 47, 
+                    "timestamp": 1458663926639
+                }, 
+                "status": "OK", 
+                "topic": "BET_GROAN"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 51, 
+                    "timestamp": 1458664467214
+                }, 
+                "partition": 3, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 51, 
+                    "timestamp": 1458663926639
+                }, 
+                "status": "OK", 
+                "topic": "BET_GROAN"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 29, 
+                    "timestamp": 1458664471686
+                }, 
+                "partition": 4, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 29, 
+                    "timestamp": 1458663931175
+                }, 
+                "status": "OK", 
+                "topic": "BET_GROAN"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 30, 
+                    "timestamp": 1458664471686
+                }, 
+                "partition": 5, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 30, 
+                    "timestamp": 1458663931175
+                }, 
+                "status": "OK", 
+                "topic": "BET_GROAN"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 48, 
+                    "timestamp": 1458664471726
+                }, 
+                "partition": 6, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 48, 
+                    "timestamp": 1458663931216
+                }, 
+                "status": "OK", 
+                "topic": "BET_GROAN"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 27, 
+                    "timestamp": 1458664471726
+                }, 
+                "partition": 7, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 27, 
+                    "timestamp": 1458663931216
+                }, 
+                "status": "OK", 
+                "topic": "BET_GROAN"
+            }, 
+            {
+                "end": {
+                    "lag": 1776, 
+                    "offset": 2163429, 
+                    "timestamp": 1458664446411
+                }, 
+                "partition": 0, 
+                "start": {
+                    "lag": 1775, 
+                    "offset": 2163234, 
+                    "timestamp": 1458663884399
+                }, 
+                "status": "OK", 
+                "topic": "ATONEMENT_FLUCTUATION"
+            }, 
+            {
+                "end": {
+                    "lag": 1721, 
+                    "offset": 2179176, 
+                    "timestamp": 1458664438620
+                }, 
+                "partition": 1, 
+                "start": {
+                    "lag": 1712, 
+                    "offset": 2178984, 
+                    "timestamp": 1458663883551
+                }, 
+                "status": "OK", 
+                "topic": "ATONEMENT_FLUCTUATION"
+            }, 
+            {
+                "end": {
+                    "lag": 1748, 
+                    "offset": 2223928, 
+                    "timestamp": 1458664438236
+                }, 
+                "partition": 2, 
+                "start": {
+                    "lag": 1721, 
+                    "offset": 2223733, 
+                    "timestamp": 1458663883477
+                }, 
+                "status": "OK", 
+                "topic": "ATONEMENT_FLUCTUATION"
+            }, 
+            {
+                "end": {
+                    "lag": 1861, 
+                    "offset": 2279712, 
+                    "timestamp": 1458664438616
+                }, 
+                "partition": 3, 
+                "start": {
+                    "lag": 1846, 
+                    "offset": 2279509, 
+                    "timestamp": 1458663883561
+                }, 
+                "status": "OK", 
+                "topic": "ATONEMENT_FLUCTUATION"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 70610, 
+                    "timestamp": 1458664498669
+                }, 
+                "partition": 0, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 70603, 
+                    "timestamp": 1458663929305
+                }, 
+                "status": "OK", 
+                "topic": "DEATHTRAP_HOVER"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 70010, 
+                    "timestamp": 1458664498669
+                }, 
+                "partition": 1, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 70008, 
+                    "timestamp": 1458663929305
+                }, 
+                "status": "OK", 
+                "topic": "DEATHTRAP_HOVER"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 72371, 
+                    "timestamp": 1458664440518
+                }, 
+                "partition": 2, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 72370, 
+                    "timestamp": 1458663887499
+                }, 
+                "status": "OK", 
+                "topic": "DEATHTRAP_HOVER"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 70682, 
+                    "timestamp": 1458664440518
+                }, 
+                "partition": 3, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 70680, 
+                    "timestamp": 1458663887499
+                }, 
+                "status": "OK", 
+                "topic": "DEATHTRAP_HOVER"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 70749, 
+                    "timestamp": 1458664459662
+                }, 
+                "partition": 4, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 70747, 
+                    "timestamp": 1458663875348
+                }, 
+                "status": "OK", 
+                "topic": "DEATHTRAP_HOVER"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 70428, 
+                    "timestamp": 1458664459662
+                }, 
+                "partition": 5, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 70424, 
+                    "timestamp": 1458663875348
+                }, 
+                "status": "OK", 
+                "topic": "DEATHTRAP_HOVER"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 70541, 
+                    "timestamp": 1458664440488
+                }, 
+                "partition": 6, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 70538, 
+                    "timestamp": 1458663884900
+                }, 
+                "status": "OK", 
+                "topic": "DEATHTRAP_HOVER"
+            }, 
+            {
+                "end": {
+                    "lag": 0, 
+                    "offset": 69404, 
+                    "timestamp": 1458664440488
+                }, 
+                "partition": 7, 
+                "start": {
+                    "lag": 0, 
+                    "offset": 69397, 
+                    "timestamp": 1458663884900
+                }, 
+                "status": "OK", 
+                "topic": "DEATHTRAP_HOVER"
+            }
+        ], 
+        "status": "OK"
+    }
+}
