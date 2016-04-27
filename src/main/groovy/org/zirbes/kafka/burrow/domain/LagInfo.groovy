@@ -11,6 +11,8 @@ class LagInfo {
     Integer offset
     Long timestamp
 
+    boolean isOk() { !lag }
+
     DateTime getTime() {
         new DateTime(timestamp)
     }
