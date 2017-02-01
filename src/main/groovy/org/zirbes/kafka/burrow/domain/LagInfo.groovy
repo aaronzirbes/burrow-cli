@@ -7,8 +7,8 @@ import org.zirbes.kafka.burrow.util.Colorizer
 
 class LagInfo {
 
-    Integer lag
-    Integer offset
+    Long lag
+    Long offset
     Long timestamp
 
     boolean isOk() { !lag }
@@ -18,7 +18,7 @@ class LagInfo {
     }
 
     String toString() {
-        Integer padding = 60
+        Long padding = 60
         List<String> info = new CopyOnWriteArrayList<String>()
         if (lag) {
             //padding += Colorizer.RED.length() + Colorizer.RESET.length()
