@@ -1,7 +1,7 @@
 package org.zirbes.kafka.burrow.domain
 
 class Partition {
-    Integer partition
+    Long partition
     LagInfo start
     LagInfo end
     String status
